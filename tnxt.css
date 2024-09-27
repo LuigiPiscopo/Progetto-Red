@@ -1,0 +1,5 @@
+header{
+    background:linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/bak.jpg);
+    background-position: center;
+    background-size: cover
+}
