@@ -1,5 +1,69 @@
-header{
-    background:linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/bak.jpg);
-    background-position: center;
-    background-size: cover
+:root{
+    --first: darkred;
+    --second: #C67F7F;
+    --third: #ececec;
 }
+
+
+*{
+    font-family: "Nova Square", sans-serif;
+}
+ body{ padding: ;
+}
+
+
+
+
+
+
+
+header{
+    height: 80vh;
+    background:linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/bak.jpg);
+    background-position:center;
+    background-size: cover;
+   
+}
+h1{ font-size: 70px;
+    color: rgb(139,2,3);
+    letter-spacing: 70px;
+}
+.costum-mont{
+    margin-top: 6%;
+    
+}
+
+
+.costum-main{
+    font-style: italic;
+}
+.testo{
+    color: grey;
+}
+
+.costum-icons{margin-top: 13%;
+    
+
+
+}
+
+.simbolo{
+    border-bottom: 3px solid var(--first);
+    
+}
+
+
+
+
+
+ i{
+    color: var(--first);
+ }
+
+ .costum-circle{
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 10%;
+
+ }
