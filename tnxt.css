@@ -1,69 +1,136 @@
-:root{
+:root {
     --first: darkred;
     --second: #C67F7F;
     --third: #ececec;
 }
 
 
-*{
+* {
     font-family: "Nova Square", sans-serif;
 }
- body{ padding: ;
-}
 
-
-
-
-
-
-
-header{
-    height: 80vh;
-    background:linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/bak.jpg);
-    background-position:center;
-    background-size: cover;
-   
-}
-h1{ font-size: 70px;
-    color: rgb(139,2,3);
-    letter-spacing: 70px;
-}
-.costum-mont{
-    margin-top: 6%;
+body {
     
 }
 
+.costum-padding{
+    padding-top: 10%;
+}
 
-.costum-main{
+
+
+
+
+header {
+    height: 80vh;
+
+    background: linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/bak.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.costum-white{
+    background-color: var(--third);
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(139, 2, 3);
+    letter-spacing: 70px;
+}
+
+h3,
+h2,
+h5,
+h4 {
+    color: var(--first);
+}
+
+.costum-mont {
+    margin-top: 6%;
+
+}
+
+
+.costum-main {
     font-style: italic;
 }
-.testo{
+
+.testo {
     color: grey;
 }
 
-.costum-icons{margin-top: 13%;
-    
+.costum-icons {
+    margin-top: 13%;
+
 
 
 }
 
-.simbolo{
+.simbolo {
     border-bottom: 3px solid var(--first);
-    
+
 }
 
 
 
 
 
- i{
+i {
     color: var(--first);
- }
+}
 
- .costum-circle{
+.costum-circle {
+    border-radius: 50%;
     background-color: white;
     z-index: 1;
     position: relative;
     top: 10%;
 
- }
+}
+
+
+.costum-margin {
+    margin-top: 10%;
+}
+
+button {
+    border: 1px solid var(--first);
+    background-color: var(--first);
+}
+
+
+.sezione-due {
+    background-image: url(./media/trees2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    padding-bottom: 13%;
+
+}
+
+.articoli {
+    border-left: 3px solid var(--first);
+}
+
+.simbolo-articolo {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -4%;
+    top: -2%;
+   
+
+}
+.costum-span{
+    margin-bottom: 3%;
+}
+
+.linear-time{
+    padding-bottom: 3%;
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+    
+}
